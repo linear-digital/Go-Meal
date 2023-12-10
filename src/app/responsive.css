@@ -1,0 +1,8 @@
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+
+  .container-2 {
+    width: 100% !important;
+    background: #000;
+  }
+}

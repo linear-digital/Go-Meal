@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url(./Style.css);
+@import url(./responsive.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-1 {
+    width: 12%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-2 {
+    width: 88%;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+
+/* .container-3 {
+    width: 20%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+
+} */
+
+.text-color {
+    color: #2E2E2E;
+}
+
+.text-color-2 {
+    color: #A098AE;
+}
+
+.t-c-3 {
+    color: #F8B602;
+}
+
+.bg-color-1 {
+    background-color: #F8B602;
+}
+
+.dot {
+    background-color: #F8B602;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-bottom: 14px !important;
+    margin-left: 5px;
+}
+
+.dot-mini {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #A098AE;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dddcdc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
